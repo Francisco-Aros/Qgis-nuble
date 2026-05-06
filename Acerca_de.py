@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 
 st.title("Mapa interactivo – Región de Ñuble")
 
-st.write("Mapa cargado desde servidor local (http://localhost:8000)")
+st.write("Mapa cargado desde servidor web")
 
 # Insertar el mapa con iframe (FORMA CORRECTA)
 components.iframe(
